@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,webvpn.las.ac.cn
 DOMAIN-SUFFIX,webvpn.nankai.edu.cn
 DOMAIN-SUFFIX,nankai.edu.cn
-
+DOMAIN-SUFFIX,uu.me
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,mirror
