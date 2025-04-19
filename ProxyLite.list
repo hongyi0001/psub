@@ -1,6 +1,20 @@
 # 代理补充列表
 # 内容 OpenAi Bard anthropic claude
 
+# Gemini
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,chat.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-KEYWORD,generative
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,aistudio
+DOMAIN-KEYWORD,gemini,Gemini
+DOMAIN-KEYWORD,studio,Gemini
+DOMAIN-KEYWORD,generative,Gemini
+
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,v2rayse.com
@@ -30,17 +44,6 @@ DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,google.com
-
-# Gemini
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,chat.google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,google.com
-DOMAIN-KEYWORD,generative
-DOMAIN-KEYWORD,gemini
-DOMAIN-KEYWORD,aistudio
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
