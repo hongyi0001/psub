@@ -11,9 +11,12 @@ DOMAIN-SUFFIX,google.com
 DOMAIN-KEYWORD,generative
 DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,aistudio
-DOMAIN-KEYWORD,gemini,Gemini
-DOMAIN-KEYWORD,studio,Gemini
-DOMAIN-KEYWORD,generative,Gemini
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,studio
+DOMAIN-KEYWORD,generative
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,142.250.0.0/16,no-resolve
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
