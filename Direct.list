@@ -3,6 +3,8 @@
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,time.windows.com
+DOMAIN-SUFFIX,justscience.cn
+DOMAIN-SUFFIX,scholarscope.cn
 DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,msftcomecttest.com
 DOMAIN-SUFFIX,dns.msftncsi.com
