@@ -17,10 +17,12 @@ DOMAIN-SUFFIX,webvpn.las.ac.cn
 DOMAIN-SUFFIX,webvpn.nankai.edu.cn
 DOMAIN-SUFFIX,nankai.edu.cn
 DOMAIN-SUFFIX,uu.me
+DOMAIN-SUFFIX,gov.cn
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,ghp
+DOMAIN-KEYWORD,cnipa
 
 
 # 360
