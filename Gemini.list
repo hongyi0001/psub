@@ -1,17 +1,27 @@
 # 内容 OpenAi Bard anthropic claude
 
 # Gemini
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,chat.google.com
+
+# --- 2. 核心后端 API (防跳地区关键) ---
+# 专门负责生成式 AI 的 API 接口
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+
+# --- 3. 强力兜底 (建议保留) ---
+# 强制所有 Google API 走 Gemini 节点，彻底杜绝 IP 漂移
 DOMAIN-SUFFIX,googleapis.com
+
+# --- 4. 关键词匹配 ---
 DOMAIN-KEYWORD,generative
 DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,aistudio
-DOMAIN-KEYWORD,gemini
-DOMAIN-KEYWORD,studio
-DOMAIN-KEYWORD,generative
+
+# --- 5. Google IP 段 (防止 DNS 解析偏差) ---
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,172.217.0.0/16,no-resolve
 IP-CIDR,142.250.0.0/16,no-resolve
+IP-CIDR,108.177.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+
