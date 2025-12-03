@@ -19,8 +19,7 @@ DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 
-# [优化点4] 暴力兜底
-# 包含 googleapis.com 以确保所有潜在的 API 调用一致性
+# [优化点4] 暴力兜底 包含 googleapis.com 以确保所有潜在的 API 调用一致性
 DOMAIN-SUFFIX,googleapis.com
 
 # [优化点5] 关键词匹配
