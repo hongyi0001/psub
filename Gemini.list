@@ -1,24 +1,35 @@
 # 内容 OpenAi Bard anthropic claude
-
 # Gemini
-DOMAIN-SUFFIX,chat.google.com
+# [优化点1] 账号鉴权一致性
+# 强制登录验证域名也走规则，防止账号归属地与访问地冲突
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,myaccount.google.com
 
-# --- 2. 核心后端 API (防跳地区关键) ---
+# [优化点2] 核心 AI 域名补全
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,deepmind.com
+
+# [优化点3] 关键 API (防跳车核心)
 # 专门负责生成式 AI 的 API 接口
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 
-# --- 3. 强力兜底 (建议保留) ---
-# 强制所有 Google API 走 Gemini 节点，彻底杜绝 IP 漂移
+# [优化点4] 暴力兜底
+# 包含 googleapis.com 以确保所有潜在的 API 调用一致性
 DOMAIN-SUFFIX,googleapis.com
 
-# --- 4. 关键词匹配 ---
+# [优化点5] 关键词匹配
 DOMAIN-KEYWORD,generative
 DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,aistudio
 
-# --- 5. Google IP 段 (防止 DNS 解析偏差) ---
+# [优化点6] Google IP 段 (防止 DNS 解析偏差)
+# no-resolve 表示不进行 DNS 解析直接匹配 IP，提升效率
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,172.217.0.0/16,no-resolve
 IP-CIDR,142.250.0.0/16,no-resolve
