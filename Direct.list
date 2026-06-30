@@ -20,19 +20,15 @@ DOMAIN-SUFFIX,uu.me
 DOMAIN-SUFFIX,gov.cn
 
 
-# > Clarivate (科睿唯安主域名及基础服务)
-DOMAIN-SUFFIX,clarivate.com,DIRECT
-# > Web of Science & JCR (核心数据库、影响因子及旧版跳转)
+# Clarivate
+DOMAIN-SUFFIX,clarivate.com
 DOMAIN-SUFFIX,webofscience.com
 DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,isiknowledge.com
-# > EndNote (文献管理及云端同步)
-DOMAIN-SUFFIX,endnote.com,DIRECT
+DOMAIN-SUFFIX,endnote.com
 DOMAIN-SUFFIX,myendnoteweb.com
-# > Publons & ResearcherID (审稿人履历及学术身份，现虽已合并至WoS，但仍存在大量API及跳转)
 DOMAIN-SUFFIX,publons.com
 DOMAIN-SUFFIX,researcherid.com
-# > ScholarOne (科睿唯安旗下的投审稿系统，极度重要)
 DOMAIN-SUFFIX,scholarone.com
 DOMAIN-SUFFIX,manuscriptcentral.com
 
