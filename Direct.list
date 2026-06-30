@@ -19,6 +19,28 @@ DOMAIN-SUFFIX,nankai.edu.cn
 DOMAIN-SUFFIX,uu.me
 DOMAIN-SUFFIX,gov.cn
 
+
+# > Clarivate (科睿唯安主域名及基础服务)
+- DOMAIN-SUFFIX,clarivate.com,DIRECT
+
+# > Web of Science & JCR (核心数据库、影响因子及旧版跳转)
+- DOMAIN-SUFFIX,webofscience.com,DIRECT
+- DOMAIN-SUFFIX,webofknowledge.com,DIRECT
+- DOMAIN-SUFFIX,isiknowledge.com,DIRECT
+
+# > EndNote (文献管理及云端同步)
+- DOMAIN-SUFFIX,endnote.com,DIRECT
+- DOMAIN-SUFFIX,myendnoteweb.com,DIRECT
+
+# > Publons & ResearcherID (审稿人履历及学术身份，现虽已合并至WoS，但仍存在大量API及跳转)
+- DOMAIN-SUFFIX,publons.com,DIRECT
+- DOMAIN-SUFFIX,researcherid.com,DIRECT
+
+# > ScholarOne (科睿唯安旗下的投审稿系统，极度重要)
+- DOMAIN-SUFFIX,scholarone.com,DIRECT
+- DOMAIN-SUFFIX,manuscriptcentral.com,DIRECT
+
+
 # 域名关键字匹配
 DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,ghp
