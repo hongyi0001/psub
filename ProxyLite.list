@@ -32,6 +32,18 @@ DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,google.dev
 
+# Clarivate
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-SUFFIX,webofscience.com
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,isiknowledge.com
+DOMAIN-SUFFIX,endnote.com
+DOMAIN-SUFFIX,myendnoteweb.com
+DOMAIN-SUFFIX,publons.com
+DOMAIN-SUFFIX,researcherid.com
+DOMAIN-SUFFIX,scholarone.com
+DOMAIN-SUFFIX,manuscriptcentral.com
+
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,openai
