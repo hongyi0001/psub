@@ -25,6 +25,60 @@ DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,ghp
 DOMAIN-KEYWORD,cnipa
 
+# === 腾讯系 ===
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wechat.com
+
+# === 阿里系 ===
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,aliyuncs.com
+
+# === 百度系 ===
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,baidubce.com
+
+# === 字节跳动系 ===
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,snssdk.com
+
+# === 网易与新浪 ===
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,127.net
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,weibo.com
+
+# === 视频与内容社区 ===
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,xiaohongshu.com
+
+# === 生活与工具 ===
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,kuaidi100.com
+DOMAIN-SUFFIX,amap.com
+
+# === 国内常见顶级域名后缀 (大杀器，极其推荐) ===
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,com.cn
+DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,gov.cn
+
 
 # 360
 DOMAIN-SUFFIX,360.com
