@@ -19,6 +19,13 @@ DOMAIN-SUFFIX,nankai.edu.cn
 DOMAIN-SUFFIX,uu.me
 DOMAIN-SUFFIX,gov.cn
 
+# Tailscale 异地组网直连
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
+DOMAIN-SUFFIX,ts.net
+# === Tailscale 虚拟局域网 IP 段 ===
+IP-CIDR,100.64.0.0/10,no-resolve
+IP-CIDR6,fd7a:115c:a1e0::/48,no-resolve
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,mirror
