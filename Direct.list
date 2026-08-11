@@ -2,6 +2,7 @@
 
 # MyList
 # 域名后缀匹配
+DOMAIN-SUFFIX,sso.sgs.net
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,justscience.cn
 DOMAIN-SUFFIX,scholarscope.cn
@@ -18,6 +19,11 @@ DOMAIN-SUFFIX,webvpn.nankai.edu.cn
 DOMAIN-SUFFIX,nankai.edu.cn
 DOMAIN-SUFFIX,uu.me
 DOMAIN-SUFFIX,gov.cn
+
+# 微软企业级登录与认证核心域名
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msftauth.net
 
 # Tailscale 异地组网直连
 DOMAIN-SUFFIX,tailscale.com
