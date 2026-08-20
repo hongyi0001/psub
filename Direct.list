@@ -1,5 +1,12 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
 
+# Zotero 私有云 WebDAV 直连
+DOMAIN,zotero.41122986.xyz
+
+# 局域网与 ZeroTier 内网 IP 直连防劫持 (no-resolve 防止触发远端 DNS 解析)
+IP-CIDR,192.168.10.100/32,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+
 # MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,sso.sgs.net
