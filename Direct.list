@@ -25,9 +25,8 @@ DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,webvpn.las.ac.cn
 DOMAIN-SUFFIX,webvpn.nankai.edu.cn
 DOMAIN-SUFFIX,nankai.edu.cn
-DOMAIN-SUFFIX,uu.me
 DOMAIN-SUFFIX,gov.cn
-DOMAIN-SUFFIX,mxfast.com
+
 
 # 微软企业级登录与认证核心域名
 DOMAIN-SUFFIX,microsoftonline.com
