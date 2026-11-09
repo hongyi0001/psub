@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,uu.me
+DOMAIN-SUFFIX,mxfast.com
 
 # Clarivate
 DOMAIN-SUFFIX,clarivate.com
